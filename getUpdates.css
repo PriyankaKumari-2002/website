@@ -1,0 +1,29 @@
+/*========subscribe section======*/
+#subscribe{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(https://th.bing.com/th/id/OIP.-riPms1wvjhRDRWjBj4jvQHaE7?pid=ImgDet&rs=1);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    clip-path:polygon(0 15%, 100% 0,100% 85%,0 100%);
+
+
+}
+#subscribe h4{
+    font-size:25px;
+    font-weight: bold;
+
+}
+#subscribe .from-control{
+    background: transparent;
+    font-size:20px;
+}
+#subscribe .form-btn{
+    font-size: 20px;
+    background: darkblue;
+    border: 3px solid blue;
+    background-color: aquamarine;
+}
+/*======== end of subscribe section======*/
+

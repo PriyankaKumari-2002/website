@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>micro-mGenDetect-age</title>
+ <link rel="stylesheet" type="text/css" href="services.css">
+ <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+ <!-- Required meta tags -->
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="main.css">
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+ <script src="https://kit.fontawesome.com/1da4269fdd.js" crossorigin="anonymous"></script>
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <title>micro-MediDetect-age</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+ 
+  <script src="https://kit.fontawesome.com/1da4269fdd.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+ </head>
+ <body>
+ <header>
+  <div class="mainheader">
+   <div class="logo">
+	<img src="transmicromedi.png">
+   </div>
+ 
+   <nav>
+      <a href="index.html">home</a>
+      <a href="services.html">services</a>
+      <a href="about.html">about</a>
+      <a href="contact.html">contact</a>
+     </nav>
+ 
+   <div class="menubtn">
+	<button> HelpLine</button>
+   </div>
+  </div>
+</head>
+
+    <!----------Services Markups---------->
+    <br><br>
+    <section class="service-area" id="services">
+    	
+      <div class="container">
+      	<div class="row">
+      		<div class="col-xs-12">
+      			<div class="section-title text-center ">
+                   
+      				<h2><b>About micro-GeniDetect-age and its features</b></h2>
+      			 <h2 >Problem:</h2>
+                    <p>With a global population of over 7.6 billion people, around 61 crore people are affected by uncommon genetic illnesses. Despite the fact that
+                     this is a large report, we still don't see them receiving sufficient care. They are an underserved segment of our community, and we must take
+                      appropriate measures to help them. Though we may not be able to entirely cure the majority of them, we can certainly make a 
+                      difference in their life by making small gestures. Solving this problem - Click Button below :)) <br> <br>  </p>
+                  <button>
+                    <a style="color:white; background-color:skyblue; box-sizing:border-box; font-size:20px; padding:15px 32px;" href="https://drive.google.com/drive/folders/1wFTd4E8ubqkWdIrulmBdffUXk092Hk-m?usp=sharing">Gentic Disease Detect Model </a>
+                   </button>
+                   <br>
+
+                   <h2 >Approach Used:</h2>
+                   <p>Employed the ResNet-50 design, which is based on residual learning networks and is therefore easier to optimize, allowing to
+                        train deeper networks. As a result, network capacity and performance are improved overall.
+                        <img src="res.jpg" width="700", height="500">
+                         </p>
+
+                   <h2>Methodology Used:</h2>
+                   <p> >> On top of VGGFace, I used four Fully Connected layers. Then, on top of it, three fully linked layers and an SVM classifier. The Transfer Learning method allows us to re-use previously learnt features.
+                    The SGD optimizer was employed with a very low learning rate of 0.0001 and a momentum of 0.9. <br>
+                    
+                    >> When the validation loss stopped improving, a callback was defined in keras to reduce the learning rate by 0.1. <br>
+                    
+                    >> In each example, the batch size was set at 32. <br>
+                    
+                    >> As a baseline for good categorization, we try to reduce cross-entropy loss. <br>
+                    
+                    >> The deep learning classifier was created using the keras (v2) package. <br>
+                    
+                    >> The Tesla K80 GPU was used to train the model. <br>
+                    
+                    >> The accuracies stabilised around 100 epochs after a total of 200 epochs were run. <br> <br> </p>
+
+                    <h2 >Accuracy Results:</h2>
+                    <p>Plot showing Training and Validation Accuracy of VGGFace with 4FC Layers:
+                        <img src="acc1.png" width="600", height="400">
+                         <br> <br> <br>  </p>
+                    <p>Plot showing Training and Validation Accuracy of VGGFace with 3FC Layers and SVM Algorithm applied on top:
+                            <img src="acc2.png" width="600", height="400">
+                             <br> <br>  </p>
+
+                
+      			</div>
+      		</div>
+      	</div>
+      	
+      </div>
+
+    </section>
+</body>
